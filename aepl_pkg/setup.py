@@ -10,6 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name, ['launch/sim.launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -20,7 +21,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'vrx_controller = aepl_pkg.vrx_controller:main'
+            'vrx_controller = aepl_pkg.vrx_controller:main',
             'vrx_odom = aepl_pkg.vrx_odom:main'
         ],
     },
