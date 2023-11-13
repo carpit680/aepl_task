@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'vrx_controller = aepl_pkg.vrx_controller:main'
+            'vrx_odom = aepl_pkg.vrx_odom:main'
         ],
     },
 )
