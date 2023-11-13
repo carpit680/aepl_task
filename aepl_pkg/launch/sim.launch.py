@@ -18,6 +18,10 @@ def generate_launch_description():
             PythonLaunchDescriptionSource([
                 FindPackageShare("vrx_gazebo"), '/launch', '/rviz.launch.py'])
         ),
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([
+                FindPackageShare("slam_toolbox"), '/launch', '/online_async_launch.py'])
+        ),
         Node(
             package='aepl_pkg',  # Replace with your package name
             executable='vrx_odom',  # Replace with your node executable

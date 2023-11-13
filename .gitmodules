@@ -2,3 +2,15 @@
 	path = robot_localization
 	url = https://github.com/cra-ros-pkg/robot_localization.git
 	branch = humble-devel
+[submodule "navigation2"]
+        path = navigation2
+        url = git@github.com:carpit680/navigation2.git
+        branch = aepl
+[submodule "slam_toolbox"]
+        path = slam_toolbox
+        url = git@github.com:carpit680/slam_toolbox.git
+        branch = aepl
+[submodule "pointcloud_to_laserscan"]
+	path = pointcloud_to_laserscan
+	url = https://github.com/ros-perception/pointcloud_to_laserscan.git
+	branch = humble
