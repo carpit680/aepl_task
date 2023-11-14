@@ -36,12 +36,12 @@ def generate_launch_description():
             PythonLaunchDescriptionSource([
                 FindPackageShare("slam_toolbox"), '/launch', '/online_async_launch.py'])
         ),
-        Node(
-            package='aepl_pkg',  # Replace with your package name
-            executable='vrx_odom',  # Replace with your node executable
-            name='vrx_odom',
-            output='screen',
-        ),
+        # Node(
+        #     package='aepl_pkg',  # Replace with your package name
+        #     executable='vrx_odom',  # Replace with your node executable
+        #     name='vrx_odom',
+        #     output='screen',
+        # ),
         Node(
             package='aepl_pkg',  # Replace with your package name
             executable='vrx_controller',  # Replace with your node executable
