@@ -19,7 +19,7 @@ AEPL VRX autonomous surface vehicle task
 * Navigation2 stack has been integrated but it is non-functional and moves the vehicle in opposite direction and then rotates along Z. Probably due to some TF issue.
 * Starting and stopping the mission is also pending but is a minor addition once navigation2 is functional.
 
-
+[demo2.webm](https://github.com/carpit680/aepl_task/assets/43350102/81eeebbb-3020-470c-a31e-1534494378c7)
 
 ### Update: 1
 
